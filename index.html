@@ -32,7 +32,7 @@
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
 
         <!-- Header section -->
-        <header class="flex pt-10 mb-20">
+        <header class="pt-10 mb-20 md:flex">
             <!-- Text content -->
             <div>
                 <h1 class="text-5xl font-extrabold md:text-7xl  ">It's good <br> tea time at The <br> Tea House</h1>
@@ -49,22 +49,73 @@
                 <!-- image -->
                 <img class="w-full" src="images/banner.png" alt="">
                 <!-- card -->
-               <div class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-32 lg:left-28">
-                  <!-- icon -->
-                   <div>
-                    <i class="text-2xl text-amber-500 fa-solid fa-star"></i>
-                   </div>
-                   <!-- text -->
+                <div
+                    class="flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-28 md:top-80 md:left-32 lg:left-28">
+                    <div>
+                        <i class="text-2xl text-amber-500 fa-solid fa-star"></i>
+                    </div>
+                    <!-- text -->
                     <div class="ml-2">
                         <h2 class="lg:text-2xl font-bold">5.00</h2>
                         <p class="text-gray-500">Trust Pilot Ratings</p>
                     </div>
 
-               </div>
+                </div>
             </div>
 
         </header>
 
+        <!-- Featured product section  -->
+        <section class=" py-8 lg: py-24 ">
+            <!-- Title -->
+            <div class="text-center mb-8">
+                <h1 class="text-2xl mb-5 font-extrabold md:text-3xl">Our Featured Products</h1>
+                <p class="text-gray-600 max-w-xl m-auto">There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form, by injected humour, or randomised words
+                    which don't look even slightly believable. </p>
+
+            </div>
+
+            <!-- grid cards -->
+            <div class="grid grid-cols-1 gap-6 text-center md:grid-cols-2 lg:grid-cols-4 ">
+                <!-- Product card-1 -->
+                <div class="rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold">Milk Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+                <!-- Product card-2 -->
+                <div class="rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold">Black Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+                <!-- Product card-3 -->
+                <div class="rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold">Lemon Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+                <!-- Product card-4 -->
+                <div class="rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                    <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold">Green Tea</h2>
+                        <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
 
 </body>
